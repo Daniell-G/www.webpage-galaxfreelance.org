@@ -54,7 +54,7 @@ nav a {
 
 nav a[aria-current='page'] {
   color: rgb(241, 238, 238);
-  background-color: #636060;
+  background-color: #000000;
 }
 
 h1 {
