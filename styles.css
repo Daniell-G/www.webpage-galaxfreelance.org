@@ -1,27 +1,33 @@
+html {
+  background-color: #000000;
+  padding: 10px 50px 20px;
+}
+.wrapper {
+  width: 100%; /* Establecemos que el ancho sera del 90% */
+  max-width: 1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+  margin: auto; /* Centramos los elementos */
+  overflow: visible; /* Eliminamos errores de float */
+}
+.diva {
+  padding: 10px 50px 20px;
+  margin-left: 120px;
+  margin-right:120px;
+  text-align: center;
+
+}
+body {
+  box-sizing: border-box;
+  margin: 10px 50px 20px;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: rgba(217, 217, 217, 0.785);
+}
 .img {
   height: 70px;
   width: 90px;
   align-content: right;
 }
-.main1 {
-  text-align: center;
-  background-color: rgba(242, 248, 248, 0.226);
-  margin-left: 160px;
-  margin-right: 160px;
-}
-.div1 {
-  text-align: center;
-  background-color: rgba(242, 248, 248, 0.226);
-  margin-left: 160px;
-  margin-right: 160px;
-}
-body {
-  box-sizing: border-box;
-  margin: 25;
-  font-family: system-ui, sans-serif;
-  color: black;
-  background-color: rgba(15, 14, 14, 0.233);
-}
+
 footer {
   align-self: flex-end;
   background-color: rgba(5, 5, 5, 0.89);
@@ -57,13 +63,6 @@ nav a[aria-current='page'] {
   background-color: #000000;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-h2 {
-  font-family: Lato;
-}
 .form3 {
   width: 200px;
   margin-left: 50px;
